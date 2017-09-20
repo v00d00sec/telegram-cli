@@ -1,6 +1,6 @@
 ### Installation on Mac OSX
 ```
-git clone https://github.com/v00d00sec/telegram-cli.git && cd telegram-cli
+git clone --recursive https://github.com/v00d00sec/telegram-cli.git && cd telegram-cli
 brew install libconfig readline lua python libevent jansson
 export CFLAGS="-I/usr/local/include -I/usr/local/Cellar/readline/7.0.3_1/include"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
